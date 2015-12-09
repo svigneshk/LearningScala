@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/FunctionalProgrammingInScala/FunctionalProgrammingInScala.iml" filepath="$PROJECT_DIR$/FunctionalProgrammingInScala/FunctionalProgrammingInScala.iml" />
       <module fileurl="file://$PROJECT_DIR$/LearningScala.iml" filepath="$PROJECT_DIR$/LearningScala.iml" />
       <module fileurl="file://$PROJECT_DIR$/NeophytesGuideToScala/NeophytesGuideToScala.iml" filepath="$PROJECT_DIR$/NeophytesGuideToScala/NeophytesGuideToScala.iml" />
     </modules>
