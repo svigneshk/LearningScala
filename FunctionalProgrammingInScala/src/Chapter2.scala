@@ -6,10 +6,14 @@ object Chapter2 {
   // Exercise 2.1
   def fibonacci(n: Int): Int = {
     def go(n: Int, first: Int, second: Int): Int = {
-      if (n <= 0) first
-      else go(n - 1, second, first + second)
+      // when it is the first element (or less, exception case)
+      if (n <= 1) first
+      else {
+        print(first + ",")
+        go(n - 1, second, first + second)
+      }
     }
 
-    go(n - 1, 0, 1)
+    go(n, 0, 1)
   }
 }
